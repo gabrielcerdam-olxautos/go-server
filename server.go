@@ -7,7 +7,7 @@ type Server struct {
 	router *Router
 }
 
-func newServer(port string) *Server {
+func NewServer(port string) *Server {
 	return &Server{
 		port:   port,
 		router: newRouter(),

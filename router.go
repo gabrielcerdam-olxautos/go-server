@@ -33,5 +33,4 @@ func (r *Router) ServeHTTP(w http.ResponseWriter, request *http.Request) {
 	}
 
 	handler(w, request)
-	// fmt.Fprintf(w, "Hello World!!!")
 }
